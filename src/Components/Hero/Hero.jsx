@@ -8,11 +8,11 @@ const Hero = () => {
     })
     return (
         <div className="hero bg-base-200 min-h-screen">
-            <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className="hero-content flex-col-reverse lg:flex-row-reverse">
                 <img
                     src={homeSVG}
-                    className="w-1/3 rounded-lg shadow-2xl" />
-                <div className="w-2/3 text-white">
+                    className="md:w-1/3 rounded-lg shadow-2xl" />
+                <div className="md:w-2/3 text-white">
                     <h1 className="text-5xl font-semibold">Hi!👋</h1>
                     <h1 className="text-5xl font-semibold mt-2"> I'm <span className="text-[#B968C7]">AL-MOMEN REYAD</span></h1>
                     <div>

@@ -9,7 +9,7 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 ">
 
-                <div className="card card-compact bg-base-100  shadow-xl">
+                <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md hover:scale-105 transition-transform transform">
                     <figure>
                         <img
                             src="https://i.postimg.cc/hj06wHGT/1st.png"
@@ -28,7 +28,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="card card-compact bg-base-100  shadow-xl">
+                <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md  hover:scale-105 transition-transform transform">
                     <figure>
                         <img
                             src="https://i.postimg.cc/fbcrt6mp/2nd.png"
@@ -47,7 +47,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="card card-compact bg-base-100  shadow-xl">
+                <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md  hover:scale-105 transition-transform transform">
                     <figure>
                         <img
                             src="https://i.postimg.cc/HxTPQBtx/3rd.png"

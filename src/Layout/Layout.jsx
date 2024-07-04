@@ -8,7 +8,11 @@ const Layout = () => {
             <div className="lg:fixed w-full">
                 <Navbar></Navbar>
             </div>
-            <Outlet></Outlet>
+            <div className="bg-cover" style={{
+                backgroundImage: "url(https://i.postimg.cc/9f4CBTYs/dark-black-background-design-with-stripes-1017-38064.avif)",
+            }}>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );

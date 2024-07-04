@@ -10,7 +10,7 @@ const Resume = () => {
 
     return (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
-            <div className=" max-w-7xl mx-auto mb-8">
+            <div className=" max-w-7xl mx-auto pb-8">
                 <div className="lg:pt-24" >
                     <h1 className='text-[#B968C7] text-center text-3xl font-semibold '>RESUME</h1>
                     <div className='text-center my-8'>

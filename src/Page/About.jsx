@@ -32,7 +32,7 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="mb-12">
+            <div className="pb-12">
                 <p className=" font-semibold text-[#B968C7] text-center text-5xl mb-12">Skillset</p>
                 <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-12">
 

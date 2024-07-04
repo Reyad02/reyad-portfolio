@@ -7,7 +7,7 @@ const Hero = () => {
         loop: 0
     })
     return (
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero  min-h-screen">
             <div className="hero-content flex-col-reverse lg:flex-row-reverse">
                 <img
                     src={homeSVG}

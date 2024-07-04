@@ -3,10 +3,30 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
     const navlinks =
         <>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to={"/about"}>About</NavLink></li>
-            <li><NavLink to={"/projects"}>Projects</NavLink></li>
-            <li><NavLink to={"/resume"}>Resume</NavLink></li>
+            <li><NavLink to="/" style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#B968C7',
+                background: isActive ? '#B968C7' : 'transparent',
+                fontWeight: isActive ? 'bold' : 'normal',
+            })}>Home</NavLink></li>
+
+            <li><NavLink to={"/about"} style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#B968C7',
+                background: isActive ? '#B968C7' : 'transparent',
+                fontWeight: isActive ? 'bold' : 'normal',
+            })}>About</NavLink></li>
+
+            <li><NavLink to={"/projects"} style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#B968C7',
+                background: isActive ? '#B968C7' : 'transparent',
+                fontWeight: isActive ? 'bold' : 'normal',
+            })}
+            >Projects</NavLink></li>
+
+            <li><NavLink to={"/resume"} style={({ isActive }) => ({
+                color: isActive ? '#fff' : '#B968C7',
+                background: isActive ? '#B968C7' : 'transparent',
+                fontWeight: isActive ? 'bold' : 'normal',
+            })}>Resume</NavLink></li>
         </>
 
     return (
@@ -30,7 +50,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content  rounded-box mt-3 w-52 p-2 shadow backdrop-blur-md z-50 relative">
+                            className="menu menu-sm dropdown-content rounded-box mt-3 w-52 p-2 shadow backdrop-blur-md z-50">
                             {navlinks}
                         </ul>
                     </div>

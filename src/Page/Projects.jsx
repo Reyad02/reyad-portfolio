@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
-        <div className="max-w-7xl mx-auto lg:p-24 space-y-8 ">
+        <div className="max-w-7xl mx-auto lg:p-24 space-y-20 lg:space-y-8 ">
             <div className="text-center md:mb-12">
                 <h1 className="text-3xl font-semibold">My Recent <span className="text-[#B968C7]">Works</span></h1>
                 <p>Here are few projects I have worked on recently.</p>

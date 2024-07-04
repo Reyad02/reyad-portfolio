@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navlinks =
@@ -9,10 +9,9 @@ const Navbar = () => {
             <li><NavLink to={"/resume"}>Resume</NavLink></li>
         </>
 
-
     return (
-        <div className="">
-            <div className="navbar lg:max-w-7xl mx-auto">
+        <div className=" lg:top-0 lg:w-full lg:z-50 lg:fixed">
+            <div className="navbar lg:max-w-7xl mx-auto backdrop-blur-md">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,11 +30,11 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content  rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            className="menu menu-sm dropdown-content  rounded-box mt-3 w-52 p-2 shadow backdrop-blur-md z-50 relative">
                             {navlinks}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <Link to={"/"} className="btn btn-ghost text-4xl font-bold text-[#B968C7] ">AMR</Link>
                 </div>
                 <div className="navbar-end hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1">

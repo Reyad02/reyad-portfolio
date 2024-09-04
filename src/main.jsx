@@ -10,6 +10,7 @@ import Layout from './Layout/Layout';
 import About from './Page/About';
 import Projects from './Page/Projects';
 import Resume from './Page/Resume';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 const router = createBrowserRouter([
@@ -40,6 +41,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <HelmetProvider>
     <RouterProvider router={router} />
+    </HelmetProvider>
   </React.StrictMode>,
 )

@@ -9,6 +9,7 @@ import { FaPython } from "react-icons/fa";
 import { TbBrandCpp } from "react-icons/tb";
 
 import { FaGitAlt } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -17,6 +18,9 @@ import { FaGitAlt } from "react-icons/fa";
 const About = () => {
     return (
         <div className=" text-white max-w-7xl mx-auto px-4">
+            <Helmet>
+                <title>Portfolio - About</title>
+            </Helmet>
             <div className=" min-h-[90vh] flex items-center md:flex-row flex-col md:justify-between">
                 <div>
                     <h2 className="text-3xl font-semibold mb-2">KNOW WHO <span className="text-[#B968C7]">I'M</span></h2>

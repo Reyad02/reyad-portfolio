@@ -5,11 +5,15 @@ import { Viewer } from '@react-pdf-viewer/core';
 import resume from '../assets/Reyad_Fronted_Developer_Resume.pdf';
 import { FaDownload } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const Resume = () => {
 
     return (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+            <Helmet>
+                <title>Portfolio - Resume</title>
+            </Helmet>
             <div className=" max-w-7xl mx-auto pb-8">
                 <div className="lg:pt-24" >
                     <h1 className='text-[#B968C7] text-center text-3xl font-semibold '>RESUME</h1>

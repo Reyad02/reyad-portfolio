@@ -1,8 +1,13 @@
+import { Helmet } from 'react-helmet-async';
 import Hero from '../Components/Hero/Hero';
 
 const MyHome = () => {
     return (
         <div className=''>
+            <Helmet>
+                <title>Portfolio - Home</title>
+            </Helmet>
+
             <Hero></Hero>
             <div className=' max-w-7xl mx-auto px-4 text-white'>
                 <h1 className='text-5xl text-center mb-4'>LET ME <span className='text-[#B968C7]'>INTRODUCE</span> MYSELF</h1>

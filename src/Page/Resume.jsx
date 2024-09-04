@@ -2,7 +2,7 @@
 import { Worker } from '@react-pdf-viewer/core';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import { Viewer } from '@react-pdf-viewer/core';
-import resume from '../assets/CV of_Al_Momen_Reyad.pdf';
+import resume from '../assets/Reyad_Fronted_Developer_Resume.pdf';
 import { FaDownload } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 

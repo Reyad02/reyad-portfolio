@@ -8,7 +8,7 @@ const Hero = () => {
     })
     return (
 
-        <div className="">
+        <div className="text-white">
             <div className="hero min-h-screen ">
                 <div className="hero-content z-auto flex-col-reverse lg:flex-row-reverse">
                     <img

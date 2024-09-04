@@ -32,59 +32,59 @@ const About = () => {
                 </div>
             </div>
 
-            <div className="pb-12">
+            <div className="pb-12 text-white">
                 <p className=" font-semibold text-[#B968C7] text-center text-5xl mb-12">Skillset</p>
                 <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-12">
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2  hover:text-[#B968C7] hover:scale-105 transition-transform transform ">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2  hover:text-[#B968C7] hover:scale-105 transition-transform transform ">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><IoLogoJavascript></IoLogoJavascript></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><ImHtmlFive2></ImHtmlFive2></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><FaNode></FaNode></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><FaReact></FaReact></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><SiExpress></SiExpress></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><SiMongodb></SiMongodb></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><FaGitAlt></FaGitAlt></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><FaPython></FaPython></h2>
                         </div>
                     </div>
 
-                    <div className="card bg-transparent text-neutral-content  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
+                    <div className="card bg-transparent text-white  border-[#B968C7] border-2   hover:text-[#B968C7] hover:scale-105 transition-transform transform">
                         <div className="card-body items-center text-center">
                             <h2 className="text-5xl"><TbBrandCpp></TbBrandCpp></h2>
                         </div>

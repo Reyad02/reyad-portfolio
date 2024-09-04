@@ -4,7 +4,7 @@ const MyHome = () => {
     return (
         <div className=''>
             <Hero></Hero>
-            <div className=' max-w-7xl mx-auto px-4'>
+            <div className=' max-w-7xl mx-auto px-4 text-white'>
                 <h1 className='text-5xl text-center mb-4'>LET ME <span className='text-[#B968C7]'>INTRODUCE</span> MYSELF</h1>
                 <div className='flex items-center flex-col lg:flex-row'>
                     <div className='lg:w-2/3 space-y-4'>

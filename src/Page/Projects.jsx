@@ -2,12 +2,31 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
     return (
-        <div className="max-w-7xl mx-auto lg:p-24 space-y-20 lg:space-y-8 ">
+        <div className="max-w-7xl mx-auto lg:p-24 space-y-20 lg:space-y-8 text-white">
             <div className="text-center md:mb-12">
                 <h1 className="text-3xl font-semibold">My Recent <span className="text-[#B968C7]">Works</span></h1>
                 <p>Here are few projects I have worked on recently.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 ">
+
+                <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md hover:scale-105 transition-transform transform">
+                    <figure>
+                        <img
+                            src="https://i.postimg.cc/Kjjtp31Y/Screenshot-2024-09-03-180410.png"
+                            alt="Bus-Ticket-Pro" />
+                    </figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Bus Ticket Pro</h2>
+                        <p className="text-justify">
+                            A comprehensive bus ticket management system that allows customers to book bus tickets, select seats, and complete payments while providing admins with tools to manage buses, routes, and bookings through an intuitive dashboard.
+                        </p>
+                        <div className="card-actions justify-around">
+                            <Link to={"https://github.com/Reyad02/bus-ticket-pro"} className="btn btn-sm btn-primary">Client Link</Link>
+                            <Link to={"https://github.com/Reyad02/bus-ticket-pro-server"} className="btn btn-sm btn-primary">Server Link</Link>
+                            <Link to={"https://bus-ticket-pro.web.app/"} className="btn btn-sm btn-primary">Demo</Link>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md hover:scale-105 transition-transform transform">
                     <figure>
@@ -37,7 +56,7 @@ const Projects = () => {
                     <div className="card-body">
                         <h2 className="card-title">ART & CRAFT</h2>
                         <p className="text-justify">
-                            Welcome to our Painting and Drawing website, where creativity meets craftsmanship. Dive into a world of unique and inspiring artworks created by talented artists. 
+                            Welcome to our Painting and Drawing website, where creativity meets craftsmanship. Dive into a world of unique and inspiring artworks created by talented artists.
                         </p>
                         <div className="card-actions justify-around">
                             <Link to={"https://github.com/Reyad02/painting-client-part"} className="btn btn-sm btn-primary">Client Link</Link>
@@ -47,23 +66,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                <div className="card card-compact bg-base-100 hover:shadow-[#B968C7] shadow-md  hover:scale-105 transition-transform transform">
-                    <figure>
-                        <img
-                            src="https://i.postimg.cc/HxTPQBtx/3rd.png"
-                            alt="Real-Estate" />
-                    </figure>
-                    <div className="card-body">
-                        <h2 className="card-title">REstate</h2>
-                        <p className="text-justify">
-                        This is a real estate website created for an assignment, featuring various functionalities and a user-friendly interface.
-                        </p>
-                        <div className="card-actions justify-center">
-                            <Link to={"https://github.com/Reyad02/real-estate"} className="btn btn-sm btn-primary">Github Link</Link>
-                            <Link to={"https://b9a9-6933a.web.app/"} className="btn btn-sm btn-primary">Demo</Link>
-                        </div>
-                    </div>
-                </div>
+
 
             </div>
         </div>

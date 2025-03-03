@@ -8,10 +8,10 @@ const Layout = () => {
             <div className="bg-cover" style={{
                 backgroundImage: "url(https://i.postimg.cc/9f4CBTYs/dark-black-background-design-with-stripes-1017-38064.avif)",
             }}>
-                <div className="lg:fixed w-full z-50">
+                <div className="lg:fixed w-full z-50 font-inter">
                     <Navbar></Navbar>
                 </div>
-                <div className="">
+                <div className="font-inter">
                     <Outlet></Outlet>
                 </div>
             </div>

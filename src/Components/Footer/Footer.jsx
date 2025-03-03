@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <div className=" bg-neutral ">
+        <div className=" bg-neutral font-inter">
             <footer className="footer max-w-7xl mx-auto text-neutral-content items-center p-4">
                 <aside className="grid-flow-col items-center">
                     {/* <svg
